@@ -1,5 +1,7 @@
 # Welcome to the Weekend Project
 
+This App will let user to change their colorful puicture into grayscale image.
+
 <img width="903" alt="Screenshot 2025-04-13 at 4 47 55 PM" src="https://github.com/user-attachments/assets/a9df0351-f610-4b3f-b921-1ae8a36c375c" />
 
 

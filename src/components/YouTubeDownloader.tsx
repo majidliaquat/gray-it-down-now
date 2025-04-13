@@ -36,7 +36,7 @@ const YouTubeDownloader = () => {
 
   return (
     <div className="space-y-6">
-      <div className="bg-red-50 rounded-lg p-4 border border-red-100">
+      <div className="bg-gradient-to-r from-red-50 to-red-100 rounded-lg p-4 border border-red-100 shadow-sm">
         <div className="flex items-center gap-2 text-red-600 font-medium mb-2">
           <Youtube size={20} />
           <h3>YouTube Video Downloader</h3>
@@ -54,14 +54,14 @@ const YouTubeDownloader = () => {
             onChange={(e) => setUrl(e.target.value)}
             className="flex-1"
           />
-          <Button type="submit" disabled={isLoading} className="gap-2">
+          <Button type="submit" disabled={isLoading} className="gap-2 bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700">
             {isLoading ? "Processing..." : "Download"}
             {!isLoading && <ArrowDown size={16} />}
           </Button>
         </div>
       </form>
 
-      <div className="rounded-lg border bg-card p-4">
+      <div className="rounded-lg border backdrop-blur-sm bg-white/80 p-4 shadow-sm">
         <h4 className="font-medium mb-2">How to download YouTube videos:</h4>
         <ol className="list-decimal list-inside space-y-1 text-sm text-muted-foreground">
           <li>Copy the video URL from YouTube</li>

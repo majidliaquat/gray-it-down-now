@@ -1,11 +1,12 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Facebook, Twitter, Linkedin, Instagram, Youtube } from "lucide-react";
 import FacebookDownloader from '@/components/FacebookDownloader';
 import TwitterDownloader from '@/components/TwitterDownloader';
 import LinkedinDownloader from '@/components/LinkedinDownloader';
 import InstagramDownloader from '@/components/InstagramDownloader';
+import YouTubeDownloader from '@/components/YouTubeDownloader';
 
 const Index = () => {
   return (
@@ -20,7 +21,7 @@ const Index = () => {
 
         <main className="bg-white rounded-xl shadow-sm p-6 md:p-8">
           <Tabs defaultValue="facebook" className="w-full">
-            <TabsList className="grid w-full grid-cols-4">
+            <TabsList className="grid w-full grid-cols-5">
               <TabsTrigger value="facebook" className="flex items-center gap-2">
                 <Facebook size={18} />
                 <span className="hidden sm:inline">Facebook</span>
@@ -37,6 +38,10 @@ const Index = () => {
                 <Instagram size={18} />
                 <span className="hidden sm:inline">Instagram</span>
               </TabsTrigger>
+              <TabsTrigger value="youtube" className="flex items-center gap-2">
+                <Youtube size={18} />
+                <span className="hidden sm:inline">YouTube</span>
+              </TabsTrigger>
             </TabsList>
             <TabsContent value="facebook" className="mt-6">
               <FacebookDownloader />
@@ -49,6 +54,9 @@ const Index = () => {
             </TabsContent>
             <TabsContent value="instagram" className="mt-6">
               <InstagramDownloader />
+            </TabsContent>
+            <TabsContent value="youtube" className="mt-6">
+              <YouTubeDownloader />
             </TabsContent>
           </Tabs>
         </main>

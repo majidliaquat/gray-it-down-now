@@ -1,6 +1,8 @@
-# Welcome to the Weekend Project
+# Welcome to the Weekend AI Project
 
 This App will let user to change their colorful puicture into grayscale image.
+
+Live Demo: https://gray-it-down-now.lovable.app/
 
 <img width="903" alt="Screenshot 2025-04-13 at 4 47 55 PM" src="https://github.com/user-attachments/assets/a9df0351-f610-4b3f-b921-1ae8a36c375c" />
 
@@ -52,4 +54,4 @@ This project is built with:
 - Tailwind CSS
 
 
-## This is completely created with AI
+## This is completely created with AI you can access it here: https://gray-it-down-now.lovable.app/

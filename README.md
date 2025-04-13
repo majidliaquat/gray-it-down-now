@@ -1,4 +1,7 @@
-# Welcome to your This Social media downloader
+# Welcome to your This Social Media downloader 
+
+<img width="964" alt="Screenshot 2025-04-13 at 4 42 24 PM" src="https://github.com/user-attachments/assets/474bd6c9-5cce-4170-8631-b8f61bc9d44a" />
+
 
 ## Project info
 
@@ -42,3 +45,6 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+
+
+### This is completelty generated through AI as a Weekend Practice Project
